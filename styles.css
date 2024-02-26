@@ -1,43 +1,45 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.iconsConfig{
+.nav-style {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
 
-    font-size: 40px;
-    margin-right: 8px;
-    color: white;
+.iconsConfig {
+  font-size: 40px;
+  margin-right: 8px;
+  color: white;
 }
 
 .Myimage {
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 15px;
-    width: 30%;
-  }
-
-.Myimage p{
-    font-size: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Times, serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 15px;
+  width: 65%;
 }
 
-.wrapper{
-    background-image: url("./tim-mossholder-_YwD-QZMW8c-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
+.Myimage p {
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif, Times,
+    serif, "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
 }
 
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    text-align: left;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
+.wrapper {
+  background-color: black;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}

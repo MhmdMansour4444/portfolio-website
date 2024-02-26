@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 
-.iconsColor{
+.iconsConfig{
 
-    font-size: 40px; 
+    font-size: 40px;
+    margin-right: 8px;
     color: white;
 }
 

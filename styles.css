@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .nav-style {
@@ -14,6 +15,7 @@
   font-size: 40px;
   margin-right: 8px;
   color: white;
+  overflow-y: hidden;
 }
 
 .Myimage {
@@ -25,8 +27,8 @@
 
 .Myimage p {
   font-size: 30px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif, Times,
-    serif, "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Times,
+    serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: white;
 }
 
@@ -35,22 +37,25 @@
 }
 
 .fixtoleft {
-  
+  width: 50%;
+  margin-top: 100px;
 }
 
 .fixtoright {
-  position: absolute;
-  top: 0;
-  right: 0;
-  text-align: left;
-  
+  position: relative;
+  bottom: 350px;
+  left: 250px;
+  font-size: 75px;
+  font-family: monospace;
+}
+
+.letter1 {
+  color: green;
 }
 
 .alignlogo {
-  position: fixed;
   text-align: center;
-  width: 50%;
-  top: 25%;
+  width: 100%;
 }
 
 .footer {
@@ -60,5 +65,5 @@
   width: 100%;
   color: white;
   text-align: left;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

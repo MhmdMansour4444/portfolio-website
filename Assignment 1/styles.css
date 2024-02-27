@@ -48,8 +48,8 @@ body {
 
 .fixtoright {
   position: relative;
-  bottom: 320px;
-  left: 230px;
+  bottom: 310px;
+  left: 210px;
   font-size: 75px;
   font-family: monospace;
 }

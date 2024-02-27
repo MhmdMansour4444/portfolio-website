@@ -27,8 +27,7 @@
 
 .Myimage p {
   font-size: 30px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Times,
-    serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: monospace;
   color: white;
 }
 
